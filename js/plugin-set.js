@@ -64,7 +64,7 @@ $('.big-video').magnificPopup({
             }
             return null;
         },
-        src: 'http://www.dailymotion.com/embed/video/%id%'
+        src: 'https://www.dailymotion.com/embed/video/%id%'
       }
     }
   }
@@ -81,7 +81,7 @@ $('.big-youtube').magnificPopup({
     iframe: {
         patterns: {
             youtube: {
-                src: 'http://www.youtube.com/embed/%id%?autoplay=1&rel=0'
+                src: 'https://www.youtube.com/embed/%id%?autoplay=1&rel=0'
             }
         }
     }
